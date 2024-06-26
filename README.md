@@ -58,3 +58,6 @@ To run this project locally, follow these steps:
 This project is licensed under the MIT License. See the [LICENSE](https://raw.githubusercontent.com/YellowGregs/OtakuNexus/main/LICENSE) file for more details.
 
 ---
+
+# NOTE
+- I will try add more stuff into it, but this was a free anime website I work on for fun.
