@@ -1,0 +1,240 @@
+body, h1, h2, p, input, button, div, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #2d033b, #1c0202);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+header {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#search-bar {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    transition: background 0.3s ease;
+}
+
+#search-bar:focus {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#autocomplete-list {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+#autocomplete-list div {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#autocomplete-list img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#autocomplete-list div:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.anime-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.anime-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, background 0.3s ease;
+    cursor: pointer;
+}
+
+.anime-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.anime-card p {
+    padding: 10px;
+    text-align: center;
+}
+
+.anime-card:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#video-player {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+#server-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#server-list button, #quality-list button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#server-list button:hover, #quality-list button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#prev-episode, #next-episode {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin: 0 10px;
+}
+
+#prev-episode:hover, #next-episode:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.episode-dropdown {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #549cb0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.episode-dropdown:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.anime-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.anime-details img {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.anime-details h2 {
+    margin-bottom: 10px;
+}
+
+.anime-details p {
+    margin-bottom: 10px;
+    max-width: 800px;
+}
+
+.anime-details .genres {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.anime-details .genre {
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+.dropdown-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#prev-episode {
+    margin-right: auto;
+}
+
+#next-episode {
+    margin-left: auto;
+}
+
+footer {
+    margin-top: auto;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}

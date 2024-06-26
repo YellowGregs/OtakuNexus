@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OtakuNexus - Watch Anime</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <input type="text" id="search-bar" placeholder="Search for anime...">
+        <div id="autocomplete-list"></div>
+    </header>
+    <main>
+        <section id="video-section">
+            <div id="video-player"></div>
+            <div id="server-list"></div>
+            <div class="dropdown-container">
+                <select id="episode-dropdown" class="episode-dropdown"></select>
+            </div>
+            <div class="dropdown-container">
+                <button id="prev-episode">Previous Episode</button>
+                <button id="next-episode">Next Episode</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Made by YellowGreg
+    </footer>
+    <script src="watch.js"></script>
+</body>
+</html>

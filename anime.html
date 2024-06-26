@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OtakuNexus - Anime Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <input type="text" id="search-bar" placeholder="Search for anime...">
+        <div id="autocomplete-list"></div>
+    </header>
+    <main>
+        <section class="anime-details">
+            <img id="anime-image" src="" alt="Anime Image">
+            <h2 id="anime-title"></h2>
+            <div class="genres" id="anime-genres"></div>
+            <p id="anime-description"></p>
+            <div class="dropdown-container">
+                <select id="episode-dropdown" class="episode-dropdown"></select>
+            </div>
+        </section>
+        <section class="anime-list" id="episode-list"></section>
+    </main>
+    <footer>
+        Made by YellowGreg
+    </footer>
+    <script src="anime.js"></script>
+</body>
+</html>
