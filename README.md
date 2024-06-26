@@ -1,6 +1,6 @@
 # OtakuNexus - Free Anime Website
 
-OtakuNexus is a simple anime streaming website where you can watch your favorite anime episodes online.
+OtakuNexus is a simple HTML anime streaming website where you can watch your favorite anime episodes online.
 
 ## Features
 
@@ -13,7 +13,7 @@ OtakuNexus is a simple anime streaming website where you can watch your favorite
 ## Stuff I Used
 
 - **Frontend:** HTML, CSS, JavaScript
-- **API:** [Consumet API](https://api-anime-info.vercel.app/)
+- **API:** [Consumet API](https://github.com/consumet/api.consumet.org)
 - **Hosting:** Deployed on Vercel
 
 ## Setup Instructions
