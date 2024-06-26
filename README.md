@@ -60,4 +60,4 @@ This project is licensed under the MIT License. See the [LICENSE](https://raw.gi
 ---
 
 # NOTE
-- I will try add more stuff into it, but this was a free anime website I work on for fun.
+- I will try to add more stuff into OtakuNexus, but this was a free anime website I work on for fun, that's all.
